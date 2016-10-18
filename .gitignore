@@ -1,0 +1,7 @@
+# Ignore file
+
+# VS Code
+.vscode
+
+# Build files
+build
