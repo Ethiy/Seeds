@@ -174,8 +174,8 @@ int main( int, char**)
 {
     // Load and display images
     Image<Color> I1, I2;
-    if( ! load(I1, srcPath("im1.jpg")) ||
-        ! load(I2, srcPath("im2.jpg")) ) {
+    if( ! load(I1, srcPath("ressources/images/im1.jpg")) || ! load(I2, srcPath("ressources/images/im2.jpg")) )
+    {
         cerr<< "Unable to load images" << endl;
         return EXIT_FAILURE;
     }
